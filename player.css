@@ -1,0 +1,179 @@
+body,.container{
+    padding: 0;
+    margin: 0;
+}
+.audio_player{
+    width: 350px;
+    margin: 20px auto;
+    text-align: center;
+    background: #323245;
+    padding:20px;
+    color: white;
+}
+
+.title{
+
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.cover{
+
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+    background: white;
+    border-radius: 5px;
+
+}
+
+button{
+    border: none;
+    background: none;
+    outline: none;
+    margin: 5px 20px 10px;
+}
+.pause{
+    display: none;
+}
+.glyphicon{
+    font-size: 25px;
+}
+
+input.volume{
+    -webkit-appearance:none !important;
+    height: 3px;
+    width: 70%;
+    margin: 20px auto;
+    outline: none;
+
+
+}
+input.volume::-webkit-slider-thumb{
+    -webkit-appearance: none !important;
+    height: 20px;
+    width: 20px;
+    background: white;
+    border-radius: 100%;
+}
+.glyphicon-music.glyphicon{
+    font-size: 100px;
+    top: 100px;
+    color: #777;
+}
+#library{
+    list-style: none;
+    padding: 0;
+
+}
+
+#library li{
+    color: black;
+    background: white;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+#library .song:hover{
+    background: #eee;
+}
+#library .song.active{
+    background: #eee;
+}
+
+input.progress_bar{
+    -webkit-appearance:none !important;
+    height: 2px;
+    width: 90%;
+    margin: 20px auto;
+    outline: none;
+
+
+}
+input.progress_bar::-webkit-slider-thumb{
+    -webkit-appearance: none !important;
+    height: 10px;
+    width: 10px;
+    background: white;
+    border-radius: 100%;
+}
+
+.clearfix:after{
+  content: "";
+  display: table;
+  clear:both;
+}
+
+.left{
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding-left: 20px;
+}
+.right{
+  float: right;
+  width: 50%;
+  text-align: right;
+  padding-right: 20px;
+}
+.clearfix{
+  margin-top: -10px;
+  font-size: 10px;
+}
+footer{
+  font-family: Georgia, Times, serif;;
+  border-top: #444;
+  padding: 20px;
+  font-size: 18px;
+
+}
+footer small{
+  color: #22dd11;
+}
+
+@media screen and (max-width: 569px){
+  .audio_player{
+      width: 100%;
+      margin-top:-10px;
+  }
+  .cover{
+      width: 300px;
+      height: 300px;
+
+  }
+  .glyphicon-music.glyphicon{
+
+      top: 100px;
+  }
+  .left{
+    padding-left: 20px;
+  }
+  .right{
+    padding-right: 20px;
+  }
+
+}
+
+@media screen and (max-width: 769px){
+  .audio_player{
+      width: 100%;
+      margin-top:-10px;
+  }
+  .cover{
+      width: 95%;
+      height: 350px;
+
+  }
+  .glyphicon-music.glyphicon{
+
+      top: 125px;
+  }
+  .left{
+    padding-left: 40px;
+  }
+  .right{
+    padding-right: 40px;
+  }
+
+}

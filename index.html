@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MP3 Player</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="player.css">
+  </head>
+  <body>
+   <div class="container">
+       <div class="audio_player">
+           <input type="range" class="progress_bar" name="progress_bar" min="0" max="100" value="0">
+           <div class="clearfix">
+
+             <span class="duration left"></span>
+             <span class="total_duration right"></span>
+           </div>
+           <p class="title">New Trap Sample</p>
+           <br>
+           <button class="prev"><span class="glyphicon glyphicon-backward"></span></button>
+           <button class="play"><span class="glyphicon glyphicon-play"></span></button>
+           <button class="pause"><span class="glyphicon glyphicon-pause"></span></button>
+           <button class="next"><span class="glyphicon glyphicon-forward"></span></button>
+
+            <input type="range" class="volume" name="volume" min="0" max="10" value="5">
+           <p class="cover"><span class="glyphicon glyphicon-music"></span></p>
+
+           <ul id="library">
+               
+           </ul>
+
+           <footer> &copy; copyright 2017 &ndash; <small>Foreign Devs Inc</small>.</footer>
+       </div>
+   </div>
+
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/player.js"></script>
+
+  </body>
+</html>

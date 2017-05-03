@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Bow Down",
+        "artist": "Young Issa",
+        "filename": "bow_down.mp3",
+        "class": "song"
+    },
+   {
+        "title": "Can't Have That Shit",
+        "artist": "Young Issa",
+        "filename": "cant_have.mp3",
+        "class": "song"
+    },
+   {
+        "title": "For The Road",
+        "artist": "Tyga ft. Chris Brown",
+        "filename": "the_road.mp3",
+        "class": "song"
+    },
+   {
+        "title": "Bitches N Marijuana",
+        "artist": "Chris Brown ft. Tyga",
+        "filename": "bitches_marijuana.mp3",
+        "class": "song"
+    }
+    
+]
